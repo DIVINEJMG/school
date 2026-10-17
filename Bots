@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bots School</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; background: #f4f7fb; color: #223; }
+  header { background: #2b5cab; color: #fff; padding: 24px; text-align: center; }
+  main { max-width: 700px; margin: 24px auto; padding: 0 16px; }
+  .card { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+  button { background: #2b5cab; color: #fff; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+  button:hover { background: #1e4a8a; }
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome to Bots School</h1>
+</header>
+<main>
+<div class="card">
+<h2>About Us</h2>
+<p>Bots School is a place where learning meets technology.</p>
+</div>
+<div class="card">
+<h2>Our Mission</h2>
+<p>Empowering students with coding and critical thinking skills.</p>
+</div>
+<button onclick="showMessage()">Click for a Message</button>
+</main>
+<script>
+  function showMessage() {
+    alert('Welcome to the future of education!');
+  }
+</script>
+</body>
+</html>
